@@ -193,13 +193,13 @@
             }
             ScorePlayer.prototype.update = function() {
                 if(this.playerScore === 11) {
-                    alert("You Won! The honor is yours. Will you try once again and bring yourself to an even higher glory?");
+                    alert("You Won! Try your luck again?");
                     location.reload();
                 }
             }
             ScoreAI.prototype.update = function() {
                 if(this.aiScore === 11) {
-                    alert("The CPU Won! All humanity mourns your defeat. Try once again and restore your honor!");
+                    alert("The computer won. Better luck next time!");
                     location.reload();
                 }
             }
